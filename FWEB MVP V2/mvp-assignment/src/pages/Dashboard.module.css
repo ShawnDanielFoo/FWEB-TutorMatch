@@ -1,0 +1,396 @@
+.page {
+  min-height: 100vh;
+  padding: 24px;
+  color: white;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.10);
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+}
+
+.brandTitle {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.brandSub {
+  opacity: 0.75;
+  font-size: 12px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tabBtn {
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabBtnActive {
+  background: rgba(255,255,255,0.14);
+}
+
+/* Cards */
+.card {
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 18px;
+  padding: 18px;
+  background: rgba(255,255,255,0.04);
+}
+
+.gridForm {
+  display: grid;
+  gap: 10px;
+}
+
+.rowGap {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.25);
+  color: white;
+  outline: none;
+}
+
+/* Buttons */
+.btnPrimary {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.12);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btnDanger {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,0,0,0.10);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  min-width: 110px;
+}
+
+.btnGhost {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.25);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btnGhostSmall {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.25);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  min-width: 120px;
+}
+
+.btnRequest {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.14);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  min-width: 110px;
+}
+
+.xBtn {
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.25);
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.segBtn {
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.18);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.segBtnActive {
+  background: rgba(255,255,255,0.16);
+}
+
+.actionsRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.pillsRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pillBtn {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.pillBtnActive {
+  background: rgba(255,255,255,0.14);
+  opacity: 1;
+}
+
+/* Listings */
+.listGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.listRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.listText {
+  flex: 1;
+  text-align: left;
+  min-width: 0;
+}
+
+.listTitle {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.listDesc {
+  margin: 0 0 8px 0;
+  opacity: 0.9;
+}
+
+.listTutor {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  opacity: 0.65;
+}
+
+/* Session card layout */
+.sessionRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.sessionCenter {
+  text-align: center;
+  width: 100%;
+}
+
+.sessionTitle {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+}
+
+.sessionLine {
+  margin: 0 0 6px 0;
+  opacity: 0.9;
+}
+
+.sessionStatus {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.centerTitle {
+  text-align: center;
+  margin-top: 0;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerRow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.muted {
+  opacity: 0.75;
+}
+
+.msg {
+  margin-top: 12px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.pLine {
+  margin: 8px 0;
+  opacity: 0.9;
+}
+
+/* Modal */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 999;
+}
+
+.modal {
+  width: min(720px, 96vw);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(30,30,30,0.98);
+  padding: 18px;
+}
+
+.modalGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.modalName {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.modalEmail {
+  opacity: 0.75;
+  font-size: 12px;
+}
+
+/* Stars */
+.starBar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 0;
+  line-height: 1;
+}
+
+.starOn {
+  color: white;
+}
+
+.starOff {
+  color: rgba(255,255,255,0.35);
+}
+
+.starDisabled {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.filtersRow { display:flex; gap:10px; justify-content:space-between; align-items:center; flex-wrap:wrap; }
+
+.select {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.25);
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.select option {
+  background: #1f1f1f;
+  color: white;
+}
+
+
+.select:focus {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+

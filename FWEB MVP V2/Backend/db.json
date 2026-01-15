@@ -1,0 +1,238 @@
+{
+  "users": [
+    {
+      "id": "695925364d559241af3b4a64",
+      "_id": "695925364d559241af3b4a64",
+      "fullName": "John Tan",
+      "email": "john.tan@student.tp.edu.sg",
+      "password": "john123",
+      "course": "Information Technology",
+      "description": "Looking for help with FWEB, backend and databases."
+    },
+    {
+      "id": "695925364d559241af3b4a66",
+      "_id": "695925364d559241af3b4a66",
+      "fullName": "Aaron Lee",
+      "email": "aaron.lee@student.tp.edu.sg",
+      "password": "aaron123",
+      "course": "Engineering Design with Business",
+      "description": "Can tutor basic JavaScript and also looking for help in databases."
+    },
+    {
+      "id": "6958e2985a4e908b87a48358",
+      "_id": "6958e2985a4e908b87a48358",
+      "fullName": "Jane Lim",
+      "email": "jane.lim@student.tp.edu.sg",
+      "password": "jane123",
+      "course": "Information Technology",
+      "description": "Experienced in FWEB and happy to tutor juniors."
+    },
+    {
+      "id": "6958e2985a4e908b87a48359",
+      "_id": "6958e2985a4e908b87a48359",
+      "fullName": "Aaron Chua",
+      "email": "aaron.chua@student.tp.edu.sg",
+      "password": "aaron123",
+      "course": "Engineering Design with Business",
+      "description": "Can tutor basic JS and React. Friendly and patient."
+    },
+    {
+      "id": "6958e2a9d4c1f0a2b3c4d5e6",
+      "_id": "6958e2a9d4c1f0a2b3c4d5e6",
+      "fullName": "Sarah Ong",
+      "email": "sarah.ong@student.tp.edu.sg",
+      "password": "sarah123",
+      "course": "Business Information Systems",
+      "description": "Can tutor UI/UX, React basics, and documentation."
+    },
+    {
+      "id": "6958e2b0a1b2c3d4e5f60718",
+      "_id": "6958e2b0a1b2c3d4e5f60718",
+      "fullName": "Michelle Goh",
+      "email": "michelle.goh@student.tp.edu.sg",
+      "password": "michelle123",
+      "course": "Information Technology",
+      "description": "Can tutor MongoDB/Mongoose and backend CRUD."
+    }
+  ],
+
+  "tutorlists": [
+    {
+      "id": "695a2ecaf866ed86f414cebf",
+      "_id": "695a2ecaf866ed86f414cebf",
+      "tutorId": "695925364d559241af3b4a66",
+      "subject": "FWEB",
+      "description": "I can tutor anything related to FWEB!",
+      "availability": "Mon & Fri, 1pm - 5pm",
+      "createdAt": "2026-01-04T09:11:38.095Z",
+      "updatedAt": "2026-01-04T10:44:13.501Z"
+    },
+    {
+      "id": "695b0000a111ed86f414ce01",
+      "_id": "695b0000a111ed86f414ce01",
+      "tutorId": "6958e2985a4e908b87a48358",
+      "subject": "React Basics",
+      "description": "Components, props/state, hooks, routing, and clean UI patterns.",
+      "availability": "Tue & Thu, 2pm - 6pm",
+      "createdAt": "2026-01-03T06:10:00.000Z",
+      "updatedAt": "2026-01-03T06:10:00.000Z"
+    },
+    {
+      "id": "695b0000a222ed86f414ce02",
+      "_id": "695b0000a222ed86f414ce02",
+      "tutorId": "6958e2b0a1b2c3d4e5f60718",
+      "subject": "MongoDB & Mongoose",
+      "description": "Schema design, relationships, CRUD, populate, and validation.",
+      "availability": "Mon - Wed, 7pm - 9pm",
+      "createdAt": "2026-01-03T06:11:00.000Z",
+      "updatedAt": "2026-01-03T06:11:00.000Z"
+    },
+    {
+      "id": "695b0000a333ed86f414ce03",
+      "_id": "695b0000a333ed86f414ce03",
+      "tutorId": "6958e2a9d4c1f0a2b3c4d5e6",
+      "subject": "Documentation & Swagger",
+      "description": "API documentation, Swagger annotations, and clean README structure.",
+      "availability": "Sat, 10am - 1pm",
+      "createdAt": "2026-01-03T06:12:00.000Z",
+      "updatedAt": "2026-01-03T06:12:00.000Z"
+    },
+    {
+      "id": "695b0000a444ed86f414ce04",
+      "_id": "695b0000a444ed86f414ce04",
+      "tutorId": "695925364d559241af3b4a66",
+      "subject": "JavaScript Fundamentals",
+      "description": "Variables, loops, functions, arrays, objects, and basic DOM manipulation.",
+      "availability": "Wed & Fri, 2pm - 4pm",
+      "createdAt": "2026-01-03T06:13:00.000Z",
+      "updatedAt": "2026-01-03T06:13:00.000Z"
+    },
+    {
+      "id": "695b0000a555ed86f414ce05",
+      "_id": "695b0000a555ed86f414ce05",
+      "tutorId": "6958e2985a4e908b87a48359",
+      "subject": "Backend CRUD (Express)",
+      "description": "Routes, controllers, error handling, and basic security patterns.",
+      "availability": "Mon & Thu, 4pm - 7pm",
+      "createdAt": "2026-01-03T06:14:00.000Z",
+      "updatedAt": "2026-01-03T06:14:00.000Z"
+    }
+  ],
+
+  "sessionrequests": [
+    {
+      "id": "695a9e537349bbab337ad1b5",
+      "_id": "695a9e537349bbab337ad1b5",
+      "learnerId": "695925364d559241af3b4a64",
+      "tutorId": "695925364d559241af3b4a66",
+      "subject": "Any course that has basic JavaScript",
+      "sessionTime": "Wed & Fri, 2pm - 6pm",
+      "status": "Completed",
+      "hiddenByLearner": false,
+      "hiddenByTutor": false,
+      "createdAt": "2026-01-04T17:07:31.264Z",
+      "updatedAt": "2026-01-04T17:07:39.738Z"
+    },
+    {
+      "id": "695b1000b111bbab337ad101",
+      "_id": "695b1000b111bbab337ad101",
+      "learnerId": "695925364d559241af3b4a64",
+      "tutorId": "6958e2985a4e908b87a48358",
+      "subject": "React Basics",
+      "sessionTime": "Tue, 3pm - 5pm",
+      "status": "Pending",
+      "hiddenByLearner": false,
+      "hiddenByTutor": false,
+      "createdAt": "2026-01-04T18:00:00.000Z",
+      "updatedAt": "2026-01-04T18:00:00.000Z"
+    },
+    {
+      "id": "695b1000b222bbab337ad102",
+      "_id": "695b1000b222bbab337ad102",
+      "learnerId": "695925364d559241af3b4a64",
+      "tutorId": "6958e2b0a1b2c3d4e5f60718",
+      "subject": "MongoDB & Mongoose",
+      "sessionTime": "Mon, 7pm - 9pm",
+      "status": "Accepted",
+      "hiddenByLearner": false,
+      "hiddenByTutor": false,
+      "createdAt": "2026-01-04T18:05:00.000Z",
+      "updatedAt": "2026-01-04T18:10:00.000Z"
+    },
+    {
+      "id": "695b1000b333bbab337ad103",
+      "_id": "695b1000b333bbab337ad103",
+      "learnerId": "695925364d559241af3b4a64",
+      "tutorId": "6958e2a9d4c1f0a2b3c4d5e6",
+      "subject": "Swagger Documentation",
+      "sessionTime": "Sat, 10am - 12pm",
+      "status": "Rejected",
+      "hiddenByLearner": false,
+      "hiddenByTutor": false,
+      "createdAt": "2026-01-04T18:15:00.000Z",
+      "updatedAt": "2026-01-04T18:20:00.000Z"
+    },
+    {
+      "id": "695a3cca49bb03753b06f887",
+      "_id": "695a3cca49bb03753b06f887",
+      "learnerId": "695925364d559241af3b4a64",
+      "tutorId": "695925364d559241af3b4a66",
+      "subject": "FWEB",
+      "sessionTime": "Mon & Fri, 1pm - 5pm",
+      "status": "Completed",
+      "hiddenByLearner": false,
+      "hiddenByTutor": false,
+      "createdAt": "2026-01-04T09:20:00.000Z",
+      "updatedAt": "2026-01-04T10:20:00.000Z"
+    },
+    {
+      "id": "695b1000b444bbab337ad104",
+      "_id": "695b1000b444bbab337ad104",
+      "learnerId": "695925364d559241af3b4a64",
+      "tutorId": "6958e2985a4e908b87a48359",
+      "subject": "Backend CRUD (Express)",
+      "sessionTime": "Thu, 4pm - 6pm",
+      "status": "Completed",
+      "hiddenByLearner": false,
+      "hiddenByTutor": false,
+      "createdAt": "2026-01-04T08:30:00.000Z",
+      "updatedAt": "2026-01-04T09:30:00.000Z"
+    }
+  ],
+
+  "ratings": [
+    {
+      "id": "695a3fb1b46fb6c243403293",
+      "_id": "695a3fb1b46fb6c243403293",
+      "sessionRequestId": "695a3cca49bb03753b06f887",
+      "tutorId": "695925364d559241af3b4a66",
+      "learnerId": "695925364d559241af3b4a64",
+      "score": 5,
+      "comment": "Explained clearly and helped me debug my routes.",
+      "createdAt": "2026-01-04T10:23:45.112Z",
+      "updatedAt": "2026-01-04T10:23:45.112Z"
+    },
+    {
+      "id": "695b2000c111bbab337ad201",
+      "_id": "695b2000c111bbab337ad201",
+      "sessionRequestId": "695a9e537349bbab337ad1b5",
+      "tutorId": "695925364d559241af3b4a66",
+      "learnerId": "695925364d559241af3b4a64",
+      "score": 4,
+      "comment": "Good pacing, would love more practice questions next time.",
+      "createdAt": "2026-01-04T17:10:00.000Z",
+      "updatedAt": "2026-01-04T17:10:00.000Z"
+    },
+    {
+      "id": "695b2000c222bbab337ad202",
+      "_id": "695b2000c222bbab337ad202",
+      "sessionRequestId": "695b1000b444bbab337ad104",
+      "tutorId": "6958e2985a4e908b87a48359",
+      "learnerId": "695925364d559241af3b4a64",
+      "score": 5,
+      "comment": "Very helpful for understanding Express controllers and error handling.",
+      "createdAt": "2026-01-04T09:40:00.000Z",
+      "updatedAt": "2026-01-04T09:40:00.000Z"
+    }
+  ]
+}
